@@ -6,3 +6,16 @@ The microservice architecture pattern language is a collection of patterns for a
 
 The pattern language enables you to decide whether microservices are a good fit for your application.
 The pattern language enables you to use the microservice architecture successfully.
+
+Sample of spring boot Application
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootExampleApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootExampleApplication.class, args);
+	}
+
+}
