@@ -19,3 +19,13 @@ public class SpringBootExampleApplication {
 	}
 
 }
+
+
+
+@SpringBootApplication
+public class CourseApiWeb {
+	public static void main(String[] args) {
+		SpringApplication.run(CourseApiWeb.class, args);
+	}
+
+}
